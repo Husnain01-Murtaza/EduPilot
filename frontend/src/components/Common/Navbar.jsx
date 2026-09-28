@@ -21,7 +21,7 @@ export const Navbar = () => {
   return (
     <nav className="bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center gap-2">
-        <span className="font-extrabold text-blue-700 mr-4">Class Portal</span>
+        <span className="font-extrabold text-blue-700 mr-4">EduPilot</span>
         {links.map(([to, text]) => (
           <NavLink key={to} to={to} className={cls}>{text}</NavLink>
         ))}
